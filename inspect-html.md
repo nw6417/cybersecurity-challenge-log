@@ -1,5 +1,4 @@
-# Challenge Log: Inspect HTML
-
+Challenge Log: Inspect HTML
 Date: 10/8/26
 
 What I did: Inspected the webpage's HTML source code.
