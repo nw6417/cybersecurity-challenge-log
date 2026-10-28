@@ -38,3 +38,48 @@ What happened - AI gave me hints during Log Hunt by helping me look for unique f
 How I verified - I assembled the Log Hunt flag and Cylab accepted it. for Mod 26 I decoded the message on paper and compared my result.
 
 What I learned - Hints help me solve challenges and understand the process myself, while getting the answers directly gives me less practice.
+
+
+Entry 4: The Numbers Challenge
+
+What I asked: I asked AI to check my answer to the The Numbers cryptography challenge.
+
+What AI provided: AI helped verify how the numbers corresponded to letters in the alphabet.
+
+How I verified it: I decoded the numbers myself using A = 1, B = 2, C = 3, and checked my answer with AI.
+
+What I learned: Numbers can represent letters, and simple number codes are easy to decode when you recognize the pattern.
+
+
+
+Entry 5: 13 Challenge
+
+What I asked: I asked AI to check my answer to the 13 cryptography challenge.
+
+What AI provided: AI helped verify my ROT13-decoded message.
+
+How I verified it: I decoded the message myself and compared my result with AI's answer.
+
+What I learned: ROT13 shifts letters by 13 places and is easy to reverse, so it should not be used to protect sensitive information.
+
+
+
+Entry 6: Crack the Gate 1 Challenge
+
+What I asked: I asked AI for help understanding the challenge's webpage source code.
+
+What AI provided: AI helped me understand the ROT13-encoded developer comment and identify the hidden header X-Dev-Access: yes.
+
+How I verified it: I used the header in the challenge's login request and checked the response. The challenge returned the flag academy{brut4_f0rc4_0c4546d5}.
+
+What I learned: Developers can accidentally expose hidden access methods in webpage source code. I also learned how to inspect code and test a clue in a practice challenge.
+
+
+
+Example of How AI Assisted Me
+
+What happened: AI helped me understand clues in The Numbers and 13 challenges and explained how to decode their messages. For Crack the Gate 1, AI helped me understand the hidden developer comment and test the header.
+
+How I verified: I decoded the messages myself for The Numbers and 13, then compared my results with AI. For Crack the Gate 1, I checked the response returned by the challenge.
+
+What I learned: AI is useful for explaining clues and checking my reasoning, but I should still attempt challenges myself and verify results rather than blindly trusting AI.
