@@ -2,7 +2,7 @@ Entry 1: Inspect HTML Challenge
 
 What I asked: I asked AI for help understanding my cybersecurity challenge.
 
-What AI provided: AI explained how to inspect a webpages HTML source code.
+What AI provided: AI gave me guidance on how to inspect a webpage's HTML source code.
 
 How I verified it: I inspected the webpage source myself and found the flag.
 
@@ -24,7 +24,7 @@ Entry 3: Mod 26 Challenge
 
 What I asked: I asked AI for help understanding the Mod 26 cryptography challenge.
 
-What AI provided: AI explained to me what ROT13 is and how it shifts each letter 13 places in the alphabet.
+What AI provided: AI gave me a hint about how ROT13 works, shifting each letter 13 places in the alphabet.
 
 How I verified it: I decoded the message on paper again and got "academy{next_time_I'll_try_2_rounds_of_rot13_5c5f5b36}" which was correct.
 
@@ -44,7 +44,7 @@ Entry 4: The Numbers Challenge
 
 What I asked: I asked AI to check my answer to the The Numbers cryptography challenge.
 
-What AI provided: AI helped verify how the numbers corresponded to letters in the alphabet.
+What AI provided: AI helped me understand how numbers could correspond to letters, and I decoded the message myself.
 
 How I verified it: I decoded the numbers myself using A = 1, B = 2, C = 3, and checked my answer with AI.
 
@@ -68,7 +68,7 @@ Entry 6: Crack the Gate 1 Challenge
 
 What I asked: I asked AI for help understanding the challenge's webpage source code.
 
-What AI provided: AI helped me understand the ROT13-encoded developer comment and identify the hidden header X-Dev-Access: yes.
+What AI provided: AI helped me understand the ROT13-encoded developer comment, and I used the clue to investigate the hidden header.
 
 How I verified it: I used the header in the challenge's login request and checked the response. The challenge returned the flag academy{brut4_f0rc4_0c4546d5}.
 
