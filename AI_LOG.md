@@ -2,7 +2,7 @@ Entry 1: Inspect HTML Challenge
 
 What I asked: I asked AI for help understanding my cybersecurity challenge.
 
-What AI provided: AI explained how to inspect a webpages HTML source code.
+What AI provided: AI gave me guidance on how to inspect a webpage's HTML source code.
 
 How I verified it: I inspected the webpage source myself and found the flag.
 
@@ -24,7 +24,7 @@ Entry 3: Mod 26 Challenge
 
 What I asked: I asked AI for help understanding the Mod 26 cryptography challenge.
 
-What AI provided: AI explained to me what ROT13 is and how it shifts each letter 13 places in the alphabet.
+What AI provided: AI gave me a hint about how ROT13 works, shifting each letter 13 places in the alphabet.
 
 How I verified it: I decoded the message on paper again and got "academy{next_time_I'll_try_2_rounds_of_rot13_5c5f5b36}" which was correct.
 
@@ -44,7 +44,7 @@ Entry 4: The Numbers Challenge
 
 What I asked: I asked AI to check my answer to the The Numbers cryptography challenge.
 
-What AI provided: AI helped verify how the numbers corresponded to letters in the alphabet.
+What AI provided: AI helped me understand how numbers could correspond to letters, and I decoded the message myself.
 
 How I verified it: I decoded the numbers myself using A = 1, B = 2, C = 3, and checked my answer with AI.
 
@@ -68,7 +68,7 @@ Entry 6: Crack the Gate 1 Challenge
 
 What I asked: I asked AI for help understanding the challenge's webpage source code.
 
-What AI provided: AI helped me understand the ROT13-encoded developer comment and identify the hidden header X-Dev-Access: yes.
+What AI provided: AI helped me understand the ROT13-encoded developer comment, and I used the clue to investigate the hidden header.
 
 How I verified it: I used the header in the challenge's login request and checked the response. The challenge returned the flag academy{brut4_f0rc4_0c4546d5}.
 
@@ -134,51 +134,6 @@ What I asked: I asked AI how to get started again with OverTheWire Bandit after 
 
 What AI provided: AI guided me through reconnecting to the Bandit server using SSH and retrieving the Level 1 password by reading the readme file with cat.
 
-How I verified it: I used the password to log into Bandit Level 1 successfully.
+How I verified: I decoded the messages myself for The Numbers and 13, then compared my results with AI. For Crack the Gate 1, I checked the response returned by the challenge.
 
-What I learned: I learned how to reconnect to a remote server using SSH and retrieve information from a file using the terminal.
-
-
-
-
-Entry 12: Bandit Level 1
-
-What I asked: I asked AI for hints to help me find the password stored in a file named "-".
-
-What AI provided: AI gave me Socratic hints explaining that ./ can identify a file in the current directory and helped me understand why the dash in the filename caused a problem.
-
-How I verified it: I used cat ./- to display the file contents and retrieve the password for Level 2.
-
-What I learned: I learned that unusual filenames can affect how Linux interprets commands, and that ./ can help access files with special names.
-
-
-Entry 13: Bandit Level 2
-
-What I asked: I asked AI for hints to help me read a file with spaces and dashes in its filename.
-
-What AI provided: AI gave me Socratic hints about using quotation marks to keep the filename together and explained the purpose of --. When my first attempts failed, AI used the error message to guide me toward the correct command structure.
-
-How I verified it: I ran the corrected command and successfully displayed the file contents, which gave me the password for Level 3.
-
-What I learned: I learned how quotation marks and -- help Linux commands handle filenames containing spaces and leading dashes.
-
-
-
-
-Example of How AI Assisted Me  (CYLAB)
-
-What happened: AI gave me Socratic hints for Obedient Cat by guiding me toward downloading and reading the file. For Strings It, AI pointed me toward the strings command without revealing the flag. For Caesar, AI explained letter shifts and guided me to try different shifts. For So Meta, AI explained metadata and suggested using ExifTool.
-
-How I verified: I downloaded and read the Obedient Cat file, found the Strings It flag myself, decrypted the Caesar message, and inspected the So Meta image metadata. I submitted the So Meta flag through CyLab, and it accepted it.
-
-What I learned: Socratic hints help me understand clues and solve challenges independently. Getting answers too early gives me less practice, so I should use AI to guide my reasoning rather than do the work for me.
-
-
-Example of How AI Assisted Me PT. 2 (BANDIT)
-
-What happened: AI helped me reconnect to Bandit Level 0 and gave me Socratic hints for Levels 1 and 2. It guided me through understanding unusual filenames, hidden command options, and how to use terminal commands.
-
-How I verified: I successfully retrieved each level's password and used it to access the next Bandit level.
-
-What I learned: AI can help me understand Linux commands through hints instead of simply giving me answers. Working through errors and figuring out the commands myself helped me learn how the terminal works.
-
+What I learned: AI is useful for explaining clues and checking my reasoning, but I should still attempt challenges myself and verify results rather than blindly trusting AI.
