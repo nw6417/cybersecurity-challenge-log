@@ -134,6 +134,40 @@ What I asked: I asked AI how to get started again with OverTheWire Bandit after 
 
 What AI provided: AI guided me through reconnecting to the Bandit server using SSH and retrieving the Level 1 password by reading the readme file with cat.
 
-How I verified: I decoded the messages myself for The Numbers and 13, then compared my results with AI. For Crack the Gate 1, I checked the response returned by the challenge.
+How I verified it: I used the password to log into Bandit Level 1 successfully.
 
-What I learned: AI is useful for explaining clues and checking my reasoning, but I should still attempt challenges myself and verify results rather than blindly trusting AI.
+What I learned: I learned how to reconnect to a remote server using SSH and retrieve information from a file using the terminal.
+
+
+
+Entry 12: Bandit Level 1
+
+What I asked: I asked AI for hints to help me find the password stored in a file named "-".
+
+What AI provided: AI gave me Socratic hints explaining that ./ can identify a file in the current directory and helped me understand why the dash in the filename caused a problem.
+
+How I verified it: I used cat ./- to display the file contents and retrieve the password for Level 2.
+
+What I learned: I learned that unusual filenames can affect how Linux interprets commands, and that ./ can help access files with special names.
+
+
+
+Entry 13: Bandit Level 2
+
+What I asked: I asked AI for hints to help me read a file with spaces and dashes in its filename.
+
+What AI provided: AI gave me Socratic hints about using quotation marks to keep the filename together and explained the purpose of --. When my first attempts failed, AI used the error message to guide me toward the correct command structure.
+
+How I verified it: I ran the corrected command and successfully displayed the file contents, which gave me the password for Level 3.
+
+What I learned: I learned how quotation marks and -- help Linux commands handle filenames containing spaces and leading dashes.
+
+
+
+Example of How AI Assisted Me
+
+What happened: AI helped me reconnect to Bandit Level 0 and gave me Socratic hints for Levels 1 and 2. It guided me through understanding unusual filenames, hidden command options, and how to use terminal commands.
+
+How I verified: I successfully retrieved each level's password and used it to access the next Bandit level.
+
+What I learned: AI can help me understand Linux commands through hints instead of simply giving me answers. Working through errors and figuring out the commands myself helped me learn how the terminal works.
