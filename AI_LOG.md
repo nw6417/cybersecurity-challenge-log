@@ -76,10 +76,109 @@ What I learned: Developers can accidentally expose hidden access methods in webp
 
 
 
-Example of How AI Assisted Me
 
-What happened: AI helped me understand clues in The Numbers and 13 challenges and explained how to decode their messages. For Crack the Gate 1, AI helped me understand the hidden developer comment and test the header.
+Entry 7: Obedient Cat Challenge
 
-How I verified: I decoded the messages myself for The Numbers and 13, then compared my results with AI. For Crack the Gate 1, I checked the response returned by the challenge.
+What I asked: I asked AI for help understanding how to download and read the provided file.
 
-What I learned: AI is useful for explaining clues and checking my reasoning, but I should still attempt challenges myself and verify results rather than blindly trusting AI.
+What AI provided: AI gave me hints about using terminal commands to download the file with wget and read its contents.
+
+How I verified it: I downloaded the file and read its contents in the terminal, which revealed the flag.
+
+What I learned: Files can contain information in plain text that is easy to find.
+
+
+
+
+Entry 8: Strings It Challenge
+
+What I asked: I asked AI for a hint to help me find the flag in the provided file.
+
+What AI provided: AI gave me a Socratic hint explaining that readable text could be hidden inside the file and pointed me toward the strings command without giving me the flag.
+
+How I verified it: I found the flag myself.
+
+What I learned: Files can contain readable text even when most of their contents look like machine code. Sensitive information should not be left exposed in compiled files.
+
+
+
+
+Entry 9: Caesar Challenge
+
+What I asked: I asked AI for a hint to help me decrypt the Caesar cipher message.
+
+What AI provided: AI explained that a Caesar cipher shifts letters by a fixed number of positions and gave me a Socratic hint to try shifting the letters until the message became readable. AI initially revealed the answer too early, so I asked it not to reveal it again.
+
+How I verified it: I decrypted the message myself and got "academy{crossingtherubiconksxxkuqt}".
+
+What I learned: Caesar ciphers use fixed letter shifts to hide messages, but they are easy to break because there are only a limited number of possible shifts.
+
+
+
+
+
+Entry 10: So Meta Challenge
+
+What I asked: I asked AI for help understanding where to find the flag hidden in the picture.
+
+What AI provided: AI explained what metadata is and gave me a Socratic hint to look for information stored inside the image file. When Windows Properties did not show anything useful, AI suggested using ExifTool and looking at the Artist field.
+
+How I verified it: I inspected the image metadata and found "academy{s0_m3ta_d4aa0408}". I submitted the flag through CyLab, and it accepted it.
+
+What I learned: Image files can contain hidden metadata that is not visible when viewing the picture. Metadata can accidentally expose sensitive information when files are shared.
+
+
+Entry 11: Bandit Level 0
+
+What I asked: I asked AI how to get started again with OverTheWire Bandit after being away for several weeks.
+
+What AI provided: AI guided me through reconnecting to the Bandit server using SSH and retrieving the Level 1 password by reading the readme file with cat.
+
+How I verified it: I used the password to log into Bandit Level 1 successfully.
+
+What I learned: I learned how to reconnect to a remote server using SSH and retrieve information from a file using the terminal.
+
+
+
+
+Entry 12: Bandit Level 1
+
+What I asked: I asked AI for hints to help me find the password stored in a file named "-".
+
+What AI provided: AI gave me Socratic hints explaining that ./ can identify a file in the current directory and helped me understand why the dash in the filename caused a problem.
+
+How I verified it: I used cat ./- to display the file contents and retrieve the password for Level 2.
+
+What I learned: I learned that unusual filenames can affect how Linux interprets commands, and that ./ can help access files with special names.
+
+
+Entry 13: Bandit Level 2
+
+What I asked: I asked AI for hints to help me read a file with spaces and dashes in its filename.
+
+What AI provided: AI gave me Socratic hints about using quotation marks to keep the filename together and explained the purpose of --. When my first attempts failed, AI used the error message to guide me toward the correct command structure.
+
+How I verified it: I ran the corrected command and successfully displayed the file contents, which gave me the password for Level 3.
+
+What I learned: I learned how quotation marks and -- help Linux commands handle filenames containing spaces and leading dashes.
+
+
+
+
+Example of How AI Assisted Me  (CYLAB)
+
+What happened: AI gave me Socratic hints for Obedient Cat by guiding me toward downloading and reading the file. For Strings It, AI pointed me toward the strings command without revealing the flag. For Caesar, AI explained letter shifts and guided me to try different shifts. For So Meta, AI explained metadata and suggested using ExifTool.
+
+How I verified: I downloaded and read the Obedient Cat file, found the Strings It flag myself, decrypted the Caesar message, and inspected the So Meta image metadata. I submitted the So Meta flag through CyLab, and it accepted it.
+
+What I learned: Socratic hints help me understand clues and solve challenges independently. Getting answers too early gives me less practice, so I should use AI to guide my reasoning rather than do the work for me.
+
+
+Example of How AI Assisted Me PT. 2 (BANDIT)
+
+What happened: AI helped me reconnect to Bandit Level 0 and gave me Socratic hints for Levels 1 and 2. It guided me through understanding unusual filenames, hidden command options, and how to use terminal commands.
+
+How I verified: I successfully retrieved each level's password and used it to access the next Bandit level.
+
+What I learned: AI can help me understand Linux commands through hints instead of simply giving me answers. Working through errors and figuring out the commands myself helped me learn how the terminal works.
+
