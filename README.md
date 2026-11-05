@@ -47,3 +47,77 @@ I completed **15+ cybersecurity challenges** across multiple categories, includi
 - Recognize security risks and how to prevent them.
 - Improve problem-solving through hands-on challenges.
 - Continue learning about defensive cybersecurity.
+
+
+
+# Severity + Reccomended fixes
+
+Severity and Recommended Fixes
+
+1. Inspect HTML
+
+Severity: Medium
+
+Recommended Fix: Never put passwords or private information in public webpage code.
+
+2. Log Hunt
+
+Severity: Medium
+
+Recommended Fix: Keep sensitive information out of server logs.
+
+3. Mod 26
+
+Severity: Low
+
+Recommended Fix: Use modern encryption instead of ROT13.
+
+4. The Numbers
+
+Severity: High
+
+Recommended Fix: Do not use simple number codes to protect private information.
+
+5. 13
+
+Severity: Low
+
+Recommended Fix: Do not use ROT13 to protect senstive information.
+
+6. Crack the Gate 1
+
+Severity: High
+
+Recommended Fix: Do not expose hidden access methods or security information in webpage code.
+
+7. Obedient Cat
+
+Severity: Low
+
+Recommended Fix: Check files before sharing them to make sure they do not contain sensitive information.
+
+8. Strings It
+
+Severity: Medium
+
+Recommended Fix: Remove sensitive information from files before sharing or publishing them.
+
+9. Caesar
+
+Severity: Low
+
+Recommended Fix: Use modern encryption instead of simple letter-shifting codes.
+
+10. So Meta
+
+Severity: Medium
+
+Recommended Fix: Remove private informaion from image metadata before sharing images.
+
+11. Bandit Levels 0 - 10
+
+Severity: Medium
+
+Risk: Weak file permissions or exposed passwords can allow unauthorized access to information.
+
+Recommended Fix: Use proper file permissions and never share passwords or access credentials.
