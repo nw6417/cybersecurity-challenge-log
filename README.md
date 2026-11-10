@@ -114,7 +114,7 @@ Severity: Medium
 
 Recommended Fix: Remove private informaion from image metadata before sharing images.
 
-11. Bandit Levels 0 - 10
+11. Bandit Levels 0 - 2
 
 Severity: Medium
 
